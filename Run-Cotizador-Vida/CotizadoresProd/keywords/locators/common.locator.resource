@@ -2,7 +2,7 @@
 ${URL_VIDA}      https://www.bbva.mx/personas/productos/seguros/vida/seguro-de-vida.html
 ${Browser}      gc
 ${Timeout}    20
-${IMAGE_DIR}      .\\CotizadoresProd\\img
+${IMAGE_DIR}      C:\\Work\\img
 
 ${USUARIO_MAIL}    test.channels.prod@gmail.com
 ${USUARIO_PASSWORD}    canales64
