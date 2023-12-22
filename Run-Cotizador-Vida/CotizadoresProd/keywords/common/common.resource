@@ -95,8 +95,10 @@ Cotizador Seguro de Vida
     SikuliLibrary.Click    DropIngresos.png
     SikuliLibrary.Press Special Key    ENTER
     SikuliLibrary.Click    First_Btn_Continuar.png
-    Sleep    3s
+    Sleep    5s
+    SikuliLibrary.Wait Until Screen Contain     Check_Enfermedades.png    ${Timeout}
     SikuliLibrary.Click    Check_Enfermedades.png
+    Sleep    1s
     SikuliLibrary.Click    First_Btn_Continuar.png
     Sleep    3s
     SikuliLibrary.Click    First_Btn_Continuar.png
@@ -157,6 +159,7 @@ Cotizador Seguro de Vida
     Sleep    2s
     SikuliLibrary.Press Special Key    PAGE_DOWN 
     SikuliLibrary.Press Special Key    PAGE_DOWN 
+    Sleep   5s
     SikuliLibrary.Wait Until Screen Contain    Checks_Terminos.png    ${Timeout}
     FOR  ${i}  IN RANGE    4
         SikuliLibrary.Click    Checks_Terminos.png
